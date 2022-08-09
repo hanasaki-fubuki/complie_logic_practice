@@ -1,0 +1,3 @@
+{
+position = init + rate * 60;
+}

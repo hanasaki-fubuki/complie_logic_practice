@@ -1,0 +1,17 @@
+/*comment lines * until here */
+{
+    int i1, i2, i3;     //this is a fuckin' comment
+    i1 = 014;
+    /*this is a fuckin' large comment block*/
+    i2 = i1+0x20AF*3;
+    i3 = i1-5*(i2%2)+5;
+    if(i1==14 && i2>=20){
+    /**this
+    is a
+    fuckin'
+    extra large
+    comment block*/
+    i3 = i3 + 1;}
+    else{
+    i3=i3+2;}
+}

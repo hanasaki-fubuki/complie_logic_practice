@@ -1,0 +1,12 @@
+{
+    //define two variables m and n
+    int m,n;
+    m = 12; n = 21;
+    if(m<n){
+        int t;
+        t=m; m=n; n=t;
+    }
+    int r;
+    r = m%n;
+    while(r!=0){m=n; n=r; r=m%n;}
+}
